@@ -15,11 +15,11 @@ It also provides API to change the price of the product. <br />
 	Postman 
 *Execution Procedure:*
 
-		Run the following command in command prompt <br />
-			java -jar target\myretailservice-0.0.1-SNAPSHOT.jar <br />
-		Enter the following urls in the address bar of a web browser to get the product details. <br />
-			https://localhost:8085/product/13860428 <br />
-		To access the get method open Postman enter the url in the address bar and select method PUT. <br />
-			https://localhost:8085/product/13860428 <br />
-		The request to the PUT method must be sent in JSON format in message body. <br />
-			{"currentPrice":{"price":99.9,"currency":"USD"}} <br />
+		Run the following command in command prompt 
+			java -jar target\myretailservice-0.0.1-SNAPSHOT.jar 
+		Enter the following urls in the address bar of a web browser to get the product details. 
+			https://localhost:8085/product/13860428 
+		To access the get method open Postman enter the url in the address bar and select method PUT. 
+			https://localhost:8085/product/13860428 
+		The request to the PUT method must be sent in JSON format in message body. 
+			{"currentPrice":{"price":99.9,"currency":"USD"}} 
